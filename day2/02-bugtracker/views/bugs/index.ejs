@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bugs List</title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <h1>Bugs list</h1>
+    <hr>
+      <div> <%= list.length %> bugs are there !! </div>
+        <ol>
+            <% for(var i =0;i< list.length;i++){ %>
+            <li><%= list[i].title %></li>
+            <% }%>
+      </ol>
+      <div> <%= msg %> </div>
+  </body>
+</html>

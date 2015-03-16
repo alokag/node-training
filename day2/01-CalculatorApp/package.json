@@ -1,0 +1,12 @@
+{
+  "name": "nodeExample1",
+  "version": "0.0.1",
+  "description": "node training",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "alok a",
+  "license": "ISC"
+}
